@@ -1,0 +1,14 @@
+html,body {
+  height: 100%;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: black;
+  color: aliceblue;
+  margin-top: auto;
+}
