@@ -12,7 +12,7 @@
     font-size: 5rem;
     font-weight: 900;
     text-transform: uppercase;
-    color: #f08080;
+    color: #033F63;
 
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -25,7 +25,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: rgba(85, 0, 0, 0.445);
+    background-color: rgba(254, 220, 151, 0.445);
 
     z-index: -1;
 }
@@ -39,11 +39,11 @@
 
 .cta-right > p {
     font-size: 2rem;
-    color: #f08080;
+    color: #033F63;
 }
 
 .cta-right > button {
-    background-color: maroon;
+    background-color: #02304d;
     border: none;
     color: mintcream;
     font-size: 1.6rem;
@@ -51,15 +51,16 @@
     padding-right: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
+    border-radius: 4rem;
 }
 
 .cta-right > button:hover {
     background-color: mintcream;
-    color: maroon;
+    color: #02304d;
 }
 
 .cta-right > button:active {
-    background-color: blue;
-    color: maroon;
+    background-color: rgb(2, 255, 2);
+    color: #02304d;
 }
 

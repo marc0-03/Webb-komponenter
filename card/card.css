@@ -4,7 +4,7 @@
 }
 
 .card {
-    background-color: #f08080;
+    background-color: #28666e;
     margin: 1rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -13,18 +13,18 @@
 }
 
 .card > button {
-    background-color: #8f4949;
+    background-color: #033f63;
     color: mintcream;
     border-style: solid;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
     border-radius: 0.4rem;
-    border-color: #412222;
+    border-color: #022b44;
 }
 
 .card > button:hover {
     background-color: mintcream;
-    color: #8f4949;
+    color: #033f63;
     border-color: #d6a7a7;
 }
 
@@ -32,7 +32,7 @@
     width: 100%;
     border-radius: 0.6;
     border-style: solid;
-    border-color: #8f4949;
+    border-color: #033f63;
 }
 
 @media screen and (max-width: 750px) {
