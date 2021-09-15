@@ -1,0 +1,48 @@
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    background-color: $card_color;
+    margin: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0.6rem;
+}
+
+.card > button {
+    background-color: $secondary_card_color;
+    color: $footer_text_color;
+    border-style: solid;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    border-radius: 0.4rem;
+    border-color: $footer_text_color;
+
+    &:hover {
+        background-color: $footer_text_color;
+        color: $secondary_card_color;
+    }
+}
+
+
+.card-img {
+    width: 100%;
+    border-radius: 0.6;
+    border-style: solid;
+    border-color: $secondary_card_color;
+}
+
+@media screen and (max-width: $breakpoint-md) {
+    .card-container {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width: $breakpoint-sm) {
+    .card-container {
+      grid-template-columns: auto;
+    }
+  }
