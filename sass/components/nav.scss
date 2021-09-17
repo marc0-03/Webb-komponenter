@@ -35,5 +35,5 @@
 
 .nav-link:hover {
     text-decoration: underline;
-    color: blue;
+    color: lighten($color: $footer_text_color, $amount: 5)
 }

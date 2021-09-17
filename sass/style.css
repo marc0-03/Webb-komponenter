@@ -165,7 +165,7 @@ p {
 
 .nav-link:hover {
   text-decoration: underline;
-  color: blue;
+  color: #ff9e9e;
 }
 
 html, body {
