@@ -79,6 +79,52 @@ a {
   z-index: 1;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.card {
+  background-color: white;
+  margin: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-width: 0.1rem;
+  border-color: #c2c2c2;
+}
+
+.card-kommande {
+  visibility: visible;
+}
+@media screen and (max-width: 24rem) {
+  .card-kommande {
+    visibility: hidden;
+  }
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.date {
+  font-size: 0.6rem;
+}
+
+.card-img {
+  width: 2.5rem;
+  border-radius: 10rem;
+  float: left;
+  padding-bottom: 0.25rem;
+}
+
+.card-text {
+  font-size: 0.7rem;
+  padding-top: 0.25rem;
+}
+
 .light-container {
   padding-left: 1rem;
   padding-right: 1rem;
