@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass -watch src/sass:public/css",
+    "watch:sass": "sass --watch src/sass:public/css",
     "build:sass": "sass src/sass:public/css",
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
